@@ -3,6 +3,8 @@ This is сoursework baced on Udacity API by Anna Dutko.
 
 ---First stage---
 
+Results:
+
 1.1 - Choose API.
 
 1.2 - Read API documentation.
