@@ -3,7 +3,7 @@ This is сoursework baced on Udacity API by Anna Dutko.
 
 ---First stage---
 
-Results:
+Done:
 
 1.1 - Choose API.
 
