@@ -13,4 +13,6 @@ This is сoursework baced on Udacity API by Anna Dutko.
 
 1.5 - Write short description of functional abilities of API.
 
+1.6 - Give an example of using API by wrapping programme. 
+
 1.7 - Write suggestion for making research baced on API.
