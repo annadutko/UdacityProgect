@@ -1,0 +1,85 @@
+This is a description of Udacity API. There are 2 classes with which we would work – Catalog and User. 
+
+In class Catalog() we will use these functions:
+1.	def __init__(self)  
+
+A wrapper a new catalog to interact with.
+
+2.	def clear(self) – 
+  Clears all stored catalog data.
+
+3.	def __get(self)
+  Gets and caches catalog data from Udacity’s website and returns dictionary of the entire course catalog.
+  
+4.	def all(self)
+  Gets the entire catalog and returns dictionary of the entire catalog.
+  
+5.	def courses(self)
+  Gets the courses portion of the catalog and returns list of dictionary of all course data.
+
+6.	def course(self, key)
+  Gets the data for one course. Takes as arguments key (string) – the course ID and returns dictionary of the course data.
+
+7.	def instructions(self, key) 
+  Gets instructor information for a course. Takes as arguments key(string) – the course ID and returns list of dictionary of info on each instructor in the course.
+
+8.	def tracks(self)
+  Gets all tracks and returns list of dictionary of all tracks.
+
+9.	def track(self, name)
+  Gets information for one track. Takes as arguments key(string) – name of the track, e.g. “Data Science” and returns dictionary of track info.
+
+10.	def degrees(self)
+  Gets all degrees and returns list of dictionary of degrees info.
+
+11.	def degree(key)
+  Gets the info from one degree and returns dictionary of degree info.
+
+In class User() we will use these functions:
+1.	def __init__(self, email, password) 
+  Creates a new User instance.
+
+2.	def clear(self)
+  Clears the cache.
+
+3.	def __auth(self)
+  Checks if a user is logged in; if not, log them in. Returns dictionary of session data;
+
+4.	def account(self)
+  Gets all account data for a user and returns dictionary of User account info.
+
+5.	def key(self)
+  Gets a user’s Udacity ID and returns string of User’s ID.
+
+6.	def name(self)
+  Gets a user’s name and returns string of User’s name.
+
+7.	def nickname(self)
+  Gets a user’s nickname and returns string of User’s nickname.
+
+8.	def email(self) 
+  Gets a user’s email address and returns string of User’s email.
+
+9.	def email_preferences(self)
+  Gets a user’s preferences for things like newsletters, class emails, etc. and returns dictionary of User’s email preferences.
+
+10.	def site_preferences(self)
+  Gets a user’s preferences for thing like video quality and playback and returns dictionary of User’s site preferences.
+
+11.	def enrollments(self)
+  Gets the ID’s of courses a user is enrolled in and returns list of courses enrolled in.
+
+12.	def progress(self, key)
+  Gets progress in one course, takes as argument string of Course ID and returns dictionary of info about a course.
+
+13.	def get_lesson_info(course_data)
+  Gets all course’s data and returns info about a lesson.
+
+14.	def get_lesson_progress(course_data)
+  Gets all course’s data and returns progress of a lesson.
+
+15.	def get_course_info(course_data)
+  Gets all course’s data and returns info about a course.
+
+16.	def get_course_progress(course_data)
+  Gets all course’s data and returns progress of a course.
