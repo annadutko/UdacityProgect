@@ -19,7 +19,7 @@ Done:
 
 1.7 - Write suggestion for making research baced on API.
 
----Seconf Stage---
+---Second Stage---
 
 Done:
 
