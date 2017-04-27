@@ -18,3 +18,11 @@ Done:
 1.6 - Give an example of using API by wrapping programme. 
 
 1.7 - Write suggestion for making research baced on API.
+
+---Seconf Stage---
+
+Done:
+
+2.1 - Read the description of standart Python library - 19.2. json — JSON encoder and decoder.
+
+2.2 - Write the description of JSON opportunities.
